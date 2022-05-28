@@ -10,10 +10,21 @@
 		543809B5283FCD39008E0239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543809B4283FCD39008E0239 /* AppDelegate.swift */; };
 		543809B7283FCD39008E0239 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543809B6283FCD39008E0239 /* SceneDelegate.swift */; };
 		543809B9283FCD39008E0239 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543809B8283FCD39008E0239 /* ViewController.swift */; };
-		543809BC283FCD39008E0239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543809BA283FCD39008E0239 /* Main.storyboard */; };
 		543809BF283FCD39008E0239 /* pryaniki.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 543809BD283FCD39008E0239 /* pryaniki.xcdatamodeld */; };
 		543809C1283FCD3A008E0239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543809C0283FCD3A008E0239 /* Assets.xcassets */; };
 		543809C4283FCD3A008E0239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543809C2283FCD3A008E0239 /* LaunchScreen.storyboard */; };
+		543809CC283FCE10008E0239 /* ApiResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543809CB283FCE10008E0239 /* ApiResult.swift */; };
+		543809CE283FCE1B008E0239 /* Hz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543809CD283FCE1B008E0239 /* Hz.swift */; };
+		543809D0283FCE35008E0239 /* Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543809CF283FCE35008E0239 /* Selector.swift */; };
+		543809D2283FCE47008E0239 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543809D1283FCE47008E0239 /* Picture.swift */; };
+		543809D7283FF0E9008E0239 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543809D6283FF0E9008E0239 /* TableViewModel.swift */; };
+		543809D9283FF207008E0239 /* ApiTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543809D8283FF207008E0239 /* ApiTableView.swift */; };
+		543809DB283FF216008E0239 /* PictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543809DA283FF216008E0239 /* PictureCell.swift */; };
+		543809DD283FF222008E0239 /* SelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543809DC283FF222008E0239 /* SelectorCell.swift */; };
+		543809DF283FF237008E0239 /* HzCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543809DE283FF237008E0239 /* HzCell.swift */; };
+		543809E42841289D008E0239 /* CellGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543809E32841289D008E0239 /* CellGenerator.swift */; };
+		543809E82842666A008E0239 /* ToolbarPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543809E72842666A008E0239 /* ToolbarPickerView.swift */; };
+		543809EA2842677B008E0239 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543809E92842677B008E0239 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +32,22 @@
 		543809B4283FCD39008E0239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		543809B6283FCD39008E0239 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		543809B8283FCD39008E0239 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		543809BB283FCD39008E0239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		543809BE283FCD39008E0239 /* pryaniki.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pryaniki.xcdatamodel; sourceTree = "<group>"; };
 		543809C0283FCD3A008E0239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		543809C3283FCD3A008E0239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		543809C5283FCD3A008E0239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		543809CB283FCE10008E0239 /* ApiResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResult.swift; sourceTree = "<group>"; };
+		543809CD283FCE1B008E0239 /* Hz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hz.swift; sourceTree = "<group>"; };
+		543809CF283FCE35008E0239 /* Selector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selector.swift; sourceTree = "<group>"; };
+		543809D1283FCE47008E0239 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		543809D6283FF0E9008E0239 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		543809D8283FF207008E0239 /* ApiTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTableView.swift; sourceTree = "<group>"; };
+		543809DA283FF216008E0239 /* PictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCell.swift; sourceTree = "<group>"; };
+		543809DC283FF222008E0239 /* SelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorCell.swift; sourceTree = "<group>"; };
+		543809DE283FF237008E0239 /* HzCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HzCell.swift; sourceTree = "<group>"; };
+		543809E32841289D008E0239 /* CellGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellGenerator.swift; sourceTree = "<group>"; };
+		543809E72842666A008E0239 /* ToolbarPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPickerView.swift; sourceTree = "<group>"; };
+		543809E92842677B008E0239 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +82,49 @@
 			children = (
 				543809B4283FCD39008E0239 /* AppDelegate.swift */,
 				543809B6283FCD39008E0239 /* SceneDelegate.swift */,
-				543809B8283FCD39008E0239 /* ViewController.swift */,
-				543809BA283FCD39008E0239 /* Main.storyboard */,
+				543809D5283FF0C5008E0239 /* ModelView */,
+				543809D3283FF09C008E0239 /* Model */,
+				543809D4283FF0AF008E0239 /* View */,
 				543809C0283FCD3A008E0239 /* Assets.xcassets */,
 				543809C2283FCD3A008E0239 /* LaunchScreen.storyboard */,
 				543809C5283FCD3A008E0239 /* Info.plist */,
 				543809BD283FCD39008E0239 /* pryaniki.xcdatamodeld */,
 			);
 			path = pryaniki;
+			sourceTree = "<group>";
+		};
+		543809D3283FF09C008E0239 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				543809CB283FCE10008E0239 /* ApiResult.swift */,
+				543809CD283FCE1B008E0239 /* Hz.swift */,
+				543809CF283FCE35008E0239 /* Selector.swift */,
+				543809D1283FCE47008E0239 /* Picture.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		543809D4283FF0AF008E0239 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				543809B8283FCD39008E0239 /* ViewController.swift */,
+				543809D8283FF207008E0239 /* ApiTableView.swift */,
+				543809DA283FF216008E0239 /* PictureCell.swift */,
+				543809DC283FF222008E0239 /* SelectorCell.swift */,
+				543809E92842677B008E0239 /* CustomTextField.swift */,
+				543809DE283FF237008E0239 /* HzCell.swift */,
+				543809E32841289D008E0239 /* CellGenerator.swift */,
+				543809E72842666A008E0239 /* ToolbarPickerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		543809D5283FF0C5008E0239 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				543809D6283FF0E9008E0239 /* TableViewModel.swift */,
+			);
+			path = ModelView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +187,6 @@
 			files = (
 				543809C4283FCD3A008E0239 /* LaunchScreen.storyboard in Resources */,
 				543809C1283FCD3A008E0239 /* Assets.xcassets in Resources */,
-				543809BC283FCD39008E0239 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,23 +198,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				543809BF283FCD39008E0239 /* pryaniki.xcdatamodeld in Sources */,
+				543809D9283FF207008E0239 /* ApiTableView.swift in Sources */,
 				543809B9283FCD39008E0239 /* ViewController.swift in Sources */,
 				543809B5283FCD39008E0239 /* AppDelegate.swift in Sources */,
+				543809CC283FCE10008E0239 /* ApiResult.swift in Sources */,
+				543809DF283FF237008E0239 /* HzCell.swift in Sources */,
+				543809D2283FCE47008E0239 /* Picture.swift in Sources */,
+				543809EA2842677B008E0239 /* CustomTextField.swift in Sources */,
 				543809B7283FCD39008E0239 /* SceneDelegate.swift in Sources */,
+				543809D7283FF0E9008E0239 /* TableViewModel.swift in Sources */,
+				543809E42841289D008E0239 /* CellGenerator.swift in Sources */,
+				543809CE283FCE1B008E0239 /* Hz.swift in Sources */,
+				543809D0283FCE35008E0239 /* Selector.swift in Sources */,
+				543809DD283FF222008E0239 /* SelectorCell.swift in Sources */,
+				543809E82842666A008E0239 /* ToolbarPickerView.swift in Sources */,
+				543809DB283FF216008E0239 /* PictureCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		543809BA283FCD39008E0239 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				543809BB283FCD39008E0239 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		543809C2283FCD3A008E0239 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +356,6 @@
 				INFOPLIST_FILE = pryaniki/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +383,6 @@
 				INFOPLIST_FILE = pryaniki/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
